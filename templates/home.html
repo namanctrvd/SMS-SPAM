@@ -74,7 +74,7 @@
     <header>
         <div class="jumbotron jumbotron-fluid p-y-3">
             <div class="container text-xs-center text-white">
-                <h1 class="display-1 card-header" align="center" style="color:#2196F3;">Spam or Ham | SMS Detector </h1>
+                <h1 class="display-1 card-header" align="center" style="color:#2196F3;">Spam SMS Detector </h1>
                 <p class="lead" align="center"> Paste your SMS below to check whether it is spam or not(ham). </p>
 
             </div>
@@ -86,7 +86,7 @@
             <form action="{{ url_for('predict')}}" method="POST" align="center">
                 <p class="lead">Enter Your SMS below</p>
 
-                <textarea name="message" rows="4" cols="50" placeholder="Try: Hey baby, I love you!"
+                <textarea name="message" rows="4" cols="50" placeholder="Try: Congratulations, you have won the lottery."
                     required="required"></textarea>
                 <br />
 
